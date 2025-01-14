@@ -1,3 +1,6 @@
-2025/01/11-22:50:18.511 a603 Reusing MANIFEST /Users/askincekim/Documents/projects/wp-gpt/auth/session/Default/Local Storage/leveldb/MANIFEST-000001
-2025/01/11-22:50:18.511 a603 Recovering log #67
-2025/01/11-22:50:18.512 a603 Reusing old log /Users/askincekim/Documents/projects/wp-gpt/auth/session/Default/Local Storage/leveldb/000067.log 
+2025/01/14-09:48:22.420 8503 Reusing MANIFEST /Users/askincekim/Documents/projects/wp-gpt/auth/session/Default/Local Storage/leveldb/MANIFEST-000001
+2025/01/14-09:48:22.420 8503 Recovering log #7
+2025/01/14-09:48:22.420 8503 Reusing old log /Users/askincekim/Documents/projects/wp-gpt/auth/session/Default/Local Storage/leveldb/000007.log 
+2025/01/14-10:28:32.512 1fa1b Level-0 table #11: started
+2025/01/14-10:28:32.524 1fa1b Level-0 table #11: 16850 bytes OK
+2025/01/14-10:28:32.531 1fa1b Delete type=0 #7
