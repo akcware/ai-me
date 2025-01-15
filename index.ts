@@ -138,13 +138,21 @@ async function initDB() {
 }
 
 async function sendToGPT(message: string, from: string, userName: string) {
+  logToFile(`Sending message to GPT - User: ${userName}, Content: ${message}`);
   const storedMessages = await db.all(
     "SELECT role, content FROM conversation WHERE user = ? ORDER BY id",
     [from]
   );
-  storedMessages.push({
+  
+  // Parse stored messages properly
+  const parsedMessages = storedMessages.map(msg => ({
+    role: msg.role,
+    content: msg.role === 'assistant' ? msg.content : JSON.parse(msg.content)[0].text
+  }));
+
+  parsedMessages.push({
     role: "user",
-    content: [{ type: "text", text: `${userName}: ` + message }],
+    content: `${userName}: ${message}`
   });
 
   // Initialize messages with or without system prompt based on @pro flag
@@ -153,29 +161,37 @@ async function sendToGPT(message: string, from: string, userName: string) {
   
   let messages;
   if (isPro) {
-    messages = [...storedMessages];
+    messages = [...parsedMessages];
   } else {
     const systemPrompt = {
       role: "system",
       content: await loadSystemPrompt(),
     };
-    messages = [systemPrompt, ...storedMessages];
+    messages = [systemPrompt, ...parsedMessages];
   }
 
-  const completion = await openai.chat.completions.create({
-    model: model,
-    messages: messages,
-  });
-  const responseContent = completion.choices[0].message.content;
-  await db.run(
-    "INSERT INTO conversation(user, role, content) VALUES(?, ?, ?)",
-    [from, "user", JSON.stringify([{ type: "text", text: message }])]
-  );
-  await db.run(
-    "INSERT INTO conversation(user, role, content) VALUES(?, ?, ?)",
-    [from, "assistant", JSON.stringify(responseContent)]
-  );
-  return responseContent;
+  try {
+    const completion = await openai.chat.completions.create({
+      model: model,
+      messages: messages,
+    });
+    logToFile(`Received GPT response for ${userName}`);
+    const responseContent = completion.choices[0].message.content;
+    
+    // Store messages in a consistent format
+    await db.run(
+      "INSERT INTO conversation(user, role, content) VALUES(?, ?, ?)",
+      [from, "user", JSON.stringify([{ type: "text", text: message }])]
+    );
+    await db.run(
+      "INSERT INTO conversation(user, role, content) VALUES(?, ?, ?)",
+      [from, "assistant", responseContent]
+    );
+    return responseContent;
+  } catch (error) {
+    logToFile(`Error communicating with GPT: ${error.message}`, 'error');
+    throw error;
+  }
 }
 
 async function handleAudioMessage(message: WAWebJS.Message, userName: string) {
@@ -419,60 +435,45 @@ let messageQueue: WAWebJS.Message[] = [];
 let debounceTimer: NodeJS.Timeout | null = null;
 
 client.on("message_create", async (message) => {
+  logToFile(`New message received from ${message.from}`);
+  
   // Check availability command first
-  if (await handleAvailabilityCommand(message)) return;
+  if (await handleAvailabilityCommand(message)) {
+    logToFile(`Handled availability command from ${message.from}`);
+    return;
+  }
 
   // Check if bot is disabled and message is not from admin
   if (!isBotEnabled && !isAdmin(message.from)) {
     if (message.body.includes('@gpt')) {
+      logToFile(`Rejected message from ${message.from} - bot is disabled`);
       client.sendMessage(message.from, "Sorry, the bot is currently disabled.");
     }
     return;
   }
 
-
   // Retrieve user's name, handle undefined
   const contact = await message.getContact();
   const userName = contact.name || "there";
-  console.log(message.from, userName);
-  // Add admin command handling
-  if (message.from === ADMIN_NUMBER && message.body.startsWith("@system")) {
-    const newPrompt = message.body.substring("@system".length).trim();
-    if (newPrompt) {
-      await saveSystemPrompt(newPrompt);
-
-      if (message.fromMe)
-        message.reply("System prompt updated and saved to file!");
-      else
-        client.sendMessage(
-          message.from,
-          "System prompt updated and saved to file!",
-          {}
-        );
-    } else {
-      const currentPrompt = await loadSystemPrompt();
-      client.sendMessage(
-        message.from,
-        "Current system prompt:\n" + currentPrompt
-      );
-    }
-    return;
-  }
+  logToFile(`Processing message from ${userName} (${message.from})`);
 
   if (message.hasMedia) {
     if (message.type === "ptt") {
       if (message.fromMe) return;
-
+      logToFile(`Processing voice message from ${userName}`);
       await handleAudioMessage(message, userName);
       return;
     } else if (message.type === "image" && message.body.includes("@gpt")) {
+      logToFile(`Processing image message from ${userName}`);
       await handleImageMessage(message, userName);
       return;
     }
   }
 
   if (message.body.includes("@gpt") || (containsGreeting(message.body) && message.from == "905339388217@c.us")) {
+    logToFile(`Processing GPT request from ${userName}: ${message.body}`);
     const gptResponse = await sendToGPT(message.body, message.from, userName);
+    logToFile(`Sending GPT response to ${userName}`);
 
     if (message.fromMe) message.reply(gptResponse);
     else client.sendMessage(message.from, gptResponse);

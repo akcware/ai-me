@@ -14,3 +14,745 @@
 [2025-01-14T08:48:28.374Z] [INFO] WhatsApp client is ready and connected
 [2025-01-14T09:20:42.298Z] [INFO] Processing audio message from Almila Koç
 [2025-01-14T09:25:37.149Z] [INFO] Processing image message from there
+[2025-01-14T18:28:30.956Z] [INFO] Initializing database...
+[2025-01-14T18:28:30.959Z] [INFO] Database initialized successfully
+[2025-01-14T18:28:30.959Z] [INFO] Application starting...
+[2025-01-14T18:28:41.126Z] [INFO] WhatsApp client is ready and connected
+[2025-01-14T18:29:19.641Z] [INFO] Processing image message from Kazım
+[2025-01-14T18:32:11.011Z] [INFO] Application terminated by user
+[2025-01-14T18:32:12.510Z] [INFO] Initializing database...
+[2025-01-14T18:32:12.513Z] [INFO] Database initialized successfully
+[2025-01-14T18:32:12.513Z] [INFO] Application starting...
+[2025-01-14T18:32:18.744Z] [INFO] WhatsApp client is ready and connected
+[2025-01-14T18:53:23.192Z] [INFO] Application terminated by user
+[2025-01-14T18:53:23.973Z] [INFO] Initializing database...
+[2025-01-14T18:53:23.976Z] [INFO] Database initialized successfully
+[2025-01-14T18:53:25.917Z] [INFO] Initializing database...
+[2025-01-14T18:53:25.921Z] [INFO] Database initialized successfully
+[2025-01-14T18:54:44.221Z] [INFO] Initializing database...
+[2025-01-14T18:54:44.225Z] [INFO] Database initialized successfully
+[2025-01-14T18:55:22.084Z] [INFO] Initializing database...
+[2025-01-14T18:55:22.087Z] [INFO] Database initialized successfully
+[2025-01-14T18:57:09.399Z] [INFO] Initializing database...
+[2025-01-14T18:57:09.403Z] [INFO] Database initialized successfully
+[2025-01-14T18:57:15.849Z] [INFO] Initializing database...
+[2025-01-14T18:57:15.852Z] [INFO] Database initialized successfully
+[2025-01-14T18:57:22.186Z] [INFO] Initializing database...
+[2025-01-14T18:57:22.190Z] [INFO] Database initialized successfully
+[2025-01-14T18:57:22.190Z] [INFO] Application starting...
+[2025-01-14T18:57:28.102Z] [INFO] WhatsApp client is ready and connected
+[2025-01-14T19:00:02.016Z] [INFO] Application terminated by user
+[2025-01-14T19:00:02.785Z] [INFO] Initializing database...
+[2025-01-14T19:00:02.788Z] [INFO] Database initialized successfully
+[2025-01-14T19:00:02.788Z] [INFO] Application starting...
+[2025-01-14T19:00:08.864Z] [INFO] WhatsApp client is ready and connected
+[2025-01-14T19:00:09.936Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:00:10.100Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:00:19.783Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:00:19.893Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:00:21.520Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:00:21.585Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:00:21.585Z] [INFO] Processing GPT request from there: @gpt test
+[2025-01-14T19:00:21.586Z] [INFO] Sending message to GPT - User: there, Content: @gpt test
+[2025-01-14T19:00:24.042Z] [INFO] Received GPT response for there
+[2025-01-14T19:00:24.048Z] [INFO] Sending GPT response to there
+[2025-01-14T19:00:24.073Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:00:24.145Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:00:33.856Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:00:33.960Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:00:45.953Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:00:46.023Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:00:46.023Z] [INFO] Processing GPT request from there: @gpt dememissin
+[2025-01-14T19:00:46.023Z] [INFO] Sending message to GPT - User: there, Content: @gpt dememissin
+[2025-01-14T19:00:47.277Z] [INFO] Received GPT response for there
+[2025-01-14T19:00:47.284Z] [INFO] Sending GPT response to there
+[2025-01-14T19:00:47.299Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:00:47.348Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:00:51.350Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:00:51.426Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:00:54.060Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:00:54.183Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:01:23.517Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:01:23.632Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:01:23.633Z] [INFO] Processing image message from Kazım
+[2025-01-14T19:01:23.633Z] [INFO] Processing image message from Kazım
+[2025-01-14T19:01:30.243Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:01:30.344Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:01:49.652Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:01:49.769Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:01:49.769Z] [INFO] Processing GPT request from Kazım: @gpt bu şarkılar eğer gerçekte yoksa ananı yerim
+[2025-01-14T19:01:49.770Z] [INFO] Sending message to GPT - User: Kazım, Content: @gpt bu şarkılar eğer gerçekte yoksa ananı yerim
+[2025-01-14T19:01:51.302Z] [INFO] Received GPT response for Kazım
+[2025-01-14T19:01:51.308Z] [INFO] Sending GPT response to Kazım
+[2025-01-14T19:01:51.334Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:01:51.419Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:02:56.376Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:02:56.491Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:02:56.491Z] [INFO] Processing GPT request from Kazım: @gpt geceyi anlatmışlar ozbinin bıraktım kendimi ali özcanın şarkısı hidra ve sansar salvonun değil
+[2025-01-14T19:02:56.491Z] [INFO] Sending message to GPT - User: Kazım, Content: @gpt geceyi anlatmışlar ozbinin bıraktım kendimi ali özcanın şarkısı hidra ve sansar salvonun değil
+[2025-01-14T19:02:59.787Z] [INFO] Received GPT response for Kazım
+[2025-01-14T19:02:59.790Z] [INFO] Sending GPT response to Kazım
+[2025-01-14T19:02:59.878Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:02:59.948Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:03:46.374Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:03:46.497Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:03:46.497Z] [INFO] Processing GPT request from Kazım: @gpt DAYI GECEYİ ANLATMIŞLAR OZBİNİN DİYORUM AMK BANA HİDRADAN YA DA BAŞKA BİR RAPÇİDEN ŞARKI ÖNER
+[2025-01-14T19:03:46.497Z] [INFO] Sending message to GPT - User: Kazım, Content: @gpt DAYI GECEYİ ANLATMIŞLAR OZBİNİN DİYORUM AMK BANA HİDRADAN YA DA BAŞKA BİR RAPÇİDEN ŞARKI ÖNER
+[2025-01-14T19:03:49.935Z] [INFO] Received GPT response for Kazım
+[2025-01-14T19:03:49.940Z] [INFO] Sending GPT response to Kazım
+[2025-01-14T19:03:49.968Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:03:50.063Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:04:14.754Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:04:14.899Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:04:14.899Z] [INFO] Processing GPT request from Kazım: @gpt bi sikim önerme siktir git
+[2025-01-14T19:04:14.899Z] [INFO] Sending message to GPT - User: Kazım, Content: @gpt bi sikim önerme siktir git
+[2025-01-14T19:04:20.993Z] [INFO] Received GPT response for Kazım
+[2025-01-14T19:04:20.998Z] [INFO] Sending GPT response to Kazım
+[2025-01-14T19:04:21.165Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:04:21.227Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:06:03.511Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:06:03.629Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:06:33.319Z] [INFO] Application terminated by user
+[2025-01-14T19:06:34.827Z] [INFO] Initializing database...
+[2025-01-14T19:06:34.830Z] [INFO] Database initialized successfully
+[2025-01-14T19:06:34.830Z] [INFO] Application starting...
+[2025-01-14T19:06:40.172Z] [INFO] WhatsApp client is ready and connected
+[2025-01-14T19:07:02.915Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:07:03.056Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:07:03.056Z] [INFO] Processing GPT request from there: @gpt test
+[2025-01-14T19:07:03.056Z] [INFO] Sending message to GPT - User: there, Content: @gpt test
+[2025-01-14T19:07:05.119Z] [INFO] Received GPT response for there
+[2025-01-14T19:07:05.120Z] [INFO] Sending GPT response to there
+[2025-01-14T19:07:05.135Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:07:05.209Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:07:19.684Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:07:19.773Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:07:19.773Z] [INFO] Processing GPT request from there: @gpt naber
+[2025-01-14T19:07:19.773Z] [INFO] Sending message to GPT - User: there, Content: @gpt naber
+[2025-01-14T19:07:21.120Z] [INFO] Received GPT response for there
+[2025-01-14T19:07:21.127Z] [INFO] Sending GPT response to there
+[2025-01-14T19:07:21.142Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:07:21.208Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:07:29.889Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:07:30.035Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:07:32.140Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:07:32.236Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:07:35.311Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:07:35.403Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:07:38.144Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:07:38.217Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:07:42.467Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:07:42.563Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:07:44.817Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:07:44.895Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:07:53.965Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:07:54.051Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:09:23.690Z] [INFO] Application terminated by user
+[2025-01-14T19:09:24.488Z] [INFO] Initializing database...
+[2025-01-14T19:09:24.491Z] [INFO] Database initialized successfully
+[2025-01-14T19:09:24.491Z] [INFO] Application starting...
+[2025-01-14T19:09:29.874Z] [INFO] WhatsApp client is ready and connected
+[2025-01-14T19:09:31.520Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:09:31.659Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:09:31.659Z] [INFO] Processing GPT request from there: @gpt test
+[2025-01-14T19:09:31.660Z] [INFO] Sending message to GPT - User: there, Content: @gpt test
+[2025-01-14T19:09:33.223Z] [INFO] Received GPT response for there
+[2025-01-14T19:09:33.224Z] [INFO] Sending GPT response to there
+[2025-01-14T19:09:33.260Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:09:33.324Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:10:43.868Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:10:44.084Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:11:12.317Z] [INFO] Application terminated by user
+[2025-01-14T19:11:12.969Z] [INFO] Initializing database...
+[2025-01-14T19:11:12.971Z] [INFO] Database initialized successfully
+[2025-01-14T19:11:12.972Z] [INFO] Application starting...
+[2025-01-14T19:11:18.253Z] [INFO] WhatsApp client is ready and connected
+[2025-01-14T19:11:19.976Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:11:20.078Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:11:37.607Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:11:37.707Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:11:37.707Z] [INFO] Processing GPT request from there: @gpt test
+[2025-01-14T19:11:37.707Z] [INFO] Sending message to GPT - User: there, Content: @gpt test
+[2025-01-14T19:11:39.381Z] [INFO] Received GPT response for there
+[2025-01-14T19:11:39.384Z] [INFO] Sending GPT response to there
+[2025-01-14T19:11:39.403Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:11:39.474Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:11:44.342Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:11:44.438Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:11:47.227Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:11:47.295Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:11:47.295Z] [INFO] Processing GPT request from there: @gpt naber
+[2025-01-14T19:11:47.296Z] [INFO] Sending message to GPT - User: there, Content: @gpt naber
+[2025-01-14T19:11:48.725Z] [INFO] Received GPT response for there
+[2025-01-14T19:11:48.732Z] [INFO] Sending GPT response to there
+[2025-01-14T19:11:48.750Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:11:48.800Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:12:20.531Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:12:20.642Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:12:20.642Z] [INFO] Processing GPT request from Kazım: @gpt bundan sonra birisi naber dediğinde halimize hamdolsun diyebilir misin
+[2025-01-14T19:12:20.643Z] [INFO] Sending message to GPT - User: Kazım, Content: @gpt bundan sonra birisi naber dediğinde halimize hamdolsun diyebilir misin
+[2025-01-14T19:12:26.838Z] [INFO] Received GPT response for Kazım
+[2025-01-14T19:12:26.842Z] [INFO] Sending GPT response to Kazım
+[2025-01-14T19:12:27.003Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:12:27.067Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:12:34.933Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:12:35.029Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:12:35.029Z] [INFO] Processing GPT request from Kazım: @gpt naber
+[2025-01-14T19:12:35.029Z] [INFO] Sending message to GPT - User: Kazım, Content: @gpt naber
+[2025-01-14T19:12:36.296Z] [INFO] Received GPT response for Kazım
+[2025-01-14T19:12:36.302Z] [INFO] Sending GPT response to Kazım
+[2025-01-14T19:12:36.385Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:12:36.439Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:12:43.744Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:12:43.849Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:12:44.745Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:12:44.812Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:12:46.062Z] [INFO] Application terminated by user
+[2025-01-14T19:12:46.770Z] [INFO] Initializing database...
+[2025-01-14T19:12:46.772Z] [INFO] Database initialized successfully
+[2025-01-14T19:12:46.772Z] [INFO] Application starting...
+[2025-01-14T19:12:52.770Z] [INFO] WhatsApp client is ready and connected
+[2025-01-14T19:12:59.035Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:12:59.174Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:13:04.460Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:13:04.629Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:13:10.715Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:13:10.799Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:13:10.800Z] [INFO] Processing GPT request from there: @gpt naber
+[2025-01-14T19:13:10.800Z] [INFO] Sending message to GPT - User: there, Content: @gpt naber
+[2025-01-14T19:13:12.161Z] [INFO] Received GPT response for there
+[2025-01-14T19:13:12.167Z] [INFO] Sending GPT response to there
+[2025-01-14T19:13:12.195Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:13:12.251Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:13:33.190Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:13:33.317Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:13:33.317Z] [INFO] Processing GPT request from Kazım: @gpt benim dışımdakiler naber dediğinde de halimize hamdolsun de
+[2025-01-14T19:13:33.317Z] [INFO] Sending message to GPT - User: Kazım, Content: @gpt benim dışımdakiler naber dediğinde de halimize hamdolsun de
+[2025-01-14T19:13:35.401Z] [INFO] Received GPT response for Kazım
+[2025-01-14T19:13:35.405Z] [INFO] Sending GPT response to Kazım
+[2025-01-14T19:13:35.495Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:13:35.573Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:13:43.256Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:13:43.367Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:13:43.772Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:13:43.847Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:13:46.715Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:13:46.795Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:13:46.950Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:13:47.025Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:13:47.026Z] [INFO] Processing GPT request from there: @gpt naber
+[2025-01-14T19:13:47.026Z] [INFO] Sending message to GPT - User: there, Content: @gpt naber
+[2025-01-14T19:13:48.247Z] [INFO] Received GPT response for there
+[2025-01-14T19:13:48.254Z] [INFO] Sending GPT response to there
+[2025-01-14T19:13:48.271Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:13:48.323Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:13:51.504Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:13:51.651Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:13:55.191Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:13:55.260Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:13:58.799Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:13:58.953Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:14:15.061Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:14:15.185Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:14:20.732Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:14:20.827Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:14:27.892Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:14:27.971Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:14:34.824Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:14:34.906Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:14:37.983Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:14:38.073Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:14:39.020Z] [INFO] New message received from 905339388217@c.us
+[2025-01-14T19:14:39.094Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-14T19:14:42.326Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:14:42.404Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:14:44.260Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:14:44.426Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:14:47.778Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:14:47.865Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:14:55.005Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:14:55.067Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:14:56.324Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:14:56.414Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:14:57.709Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:14:57.817Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:15:04.483Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:15:04.590Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:15:07.147Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:15:07.213Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:15:20.768Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:15:20.883Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:15:28.159Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:15:28.285Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:15:32.489Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:15:32.559Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:15:32.748Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:15:32.819Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:15:42.240Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:15:42.353Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:15:51.975Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:15:52.102Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:16:26.233Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:16:26.369Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:16:30.521Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:16:30.638Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:16:32.183Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:16:32.247Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:16:34.955Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:16:35.018Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:16:35.812Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:16:35.870Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:16:52.946Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:16:53.067Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:16:57.893Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-14T19:16:57.998Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-14T19:23:03.625Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:23:03.724Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-14T19:26:02.167Z] [INFO] New message received from 491627609755@c.us
+[2025-01-14T19:26:02.245Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:03.498Z] [INFO] Application terminated by user
+[2025-01-15T10:33:04.424Z] [INFO] Initializing database...
+[2025-01-15T10:33:04.427Z] [INFO] Database initialized successfully
+[2025-01-15T10:33:04.427Z] [INFO] Application starting...
+[2025-01-15T10:33:04.907Z] [ERROR] Failed to initialize client: net::ERR_INTERNET_DISCONNECTED at https://web.whatsapp.com/
+[2025-01-15T10:33:12.505Z] [INFO] Application terminated by user
+[2025-01-15T10:33:34.455Z] [INFO] Initializing database...
+[2025-01-15T10:33:34.458Z] [INFO] Database initialized successfully
+[2025-01-15T10:33:34.458Z] [INFO] Application starting...
+[2025-01-15T10:33:40.935Z] [INFO] WhatsApp client is ready and connected
+[2025-01-15T10:33:41.191Z] [INFO] New message received from 905464752166-1578403579@g.us
+[2025-01-15T10:33:41.224Z] [INFO] New message received from 905458004392@c.us
+[2025-01-15T10:33:41.238Z] [INFO] New message received from 905458004392@c.us
+[2025-01-15T10:33:41.249Z] [INFO] New message received from 905458004392@c.us
+[2025-01-15T10:33:41.338Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:41.347Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:41.368Z] [INFO] New message received from 905458004392@c.us
+[2025-01-15T10:33:41.421Z] [INFO] New message received from 905458004392@c.us
+[2025-01-15T10:33:41.496Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:41.529Z] [INFO] Processing message from Peri Helin Çekim (905458004392@c.us)
+[2025-01-15T10:33:41.529Z] [INFO] Processing image message from Peri Helin Çekim
+[2025-01-15T10:33:41.529Z] [INFO] Processing image message from Peri Helin Çekim
+[2025-01-15T10:33:41.530Z] [INFO] Processing message from Peri Helin Çekim (905458004392@c.us)
+[2025-01-15T10:33:41.530Z] [INFO] Processing message from Peri Helin Çekim (905458004392@c.us)
+[2025-01-15T10:33:41.530Z] [INFO] Processing message from Peri Helin Çekim (905458004392@c.us)
+[2025-01-15T10:33:41.530Z] [INFO] Processing message from Peri Helin Çekim (905458004392@c.us)
+[2025-01-15T10:33:41.530Z] [INFO] Processing message from Annem Songül Çekim (905464752166-1578403579@g.us)
+[2025-01-15T10:33:41.554Z] [INFO] New message received from 905458004392@c.us
+[2025-01-15T10:33:41.559Z] [INFO] New message received from 120363180848041210@newsletter
+[2025-01-15T10:33:41.573Z] [INFO] Processing message from WDR aktuell (120363180848041210@newsletter)
+[2025-01-15T10:33:41.579Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:41.625Z] [INFO] New message received from 491631686002-1625494845@g.us
+[2025-01-15T10:33:42.026Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:42.026Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:42.026Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:42.026Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:42.041Z] [INFO] Processing message from Peri Helin Çekim (905458004392@c.us)
+[2025-01-15T10:33:42.042Z] [INFO] Processing message from there (491631686002-1625494845@g.us)
+[2025-01-15T10:33:42.134Z] [INFO] New message received from 905464752166-1578403579@g.us
+[2025-01-15T10:33:42.175Z] [INFO] New message received from 905464752166-1578403579@g.us
+[2025-01-15T10:33:42.222Z] [INFO] New message received from 905464752166-1578403579@g.us
+[2025-01-15T10:33:42.262Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:42.271Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:42.295Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:42.330Z] [INFO] Processing message from Zane Gül Çekim (905464752166-1578403579@g.us)
+[2025-01-15T10:33:42.371Z] [INFO] Processing message from Annem Songül Çekim (905464752166-1578403579@g.us)
+[2025-01-15T10:33:42.371Z] [INFO] Processing message from Annem Songül Çekim (905464752166-1578403579@g.us)
+[2025-01-15T10:33:42.373Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:42.373Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:42.381Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:42.470Z] [INFO] Processing message from Pelin Doğan (120363334331603373@g.us)
+[2025-01-15T10:33:42.546Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:42.581Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:42.675Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:42.748Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:42.748Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:42.751Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:42.873Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:42.917Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:42.953Z] [INFO] Processing message from Pelin Doğan (120363334331603373@g.us)
+[2025-01-15T10:33:42.954Z] [INFO] Processing message from Pelin Doğan (120363334331603373@g.us)
+[2025-01-15T10:33:42.982Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.007Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.189Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:43.288Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:43.328Z] [INFO] New message received from 905464752166-1578403579@g.us
+[2025-01-15T10:33:43.368Z] [INFO] New message received from 905464752166-1578403579@g.us
+[2025-01-15T10:33:43.410Z] [INFO] New message received from 905464752166-1578403579@g.us
+[2025-01-15T10:33:43.416Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:43.416Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:43.416Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:43.416Z] [INFO] Processing message from Pelin Doğan (120363334331603373@g.us)
+[2025-01-15T10:33:43.416Z] [INFO] Processing message from Pelin Doğan (120363334331603373@g.us)
+[2025-01-15T10:33:43.439Z] [INFO] New message received from 905446116092@c.us
+[2025-01-15T10:33:43.452Z] [INFO] Processing message from Paşa Bey (905464752166-1578403579@g.us)
+[2025-01-15T10:33:43.452Z] [INFO] Processing message from Paşa Bey (905464752166-1578403579@g.us)
+[2025-01-15T10:33:43.452Z] [INFO] Processing message from Paşa Bey (905464752166-1578403579@g.us)
+[2025-01-15T10:33:43.500Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.537Z] [INFO] New message received from 905446116092@c.us
+[2025-01-15T10:33:43.541Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:43.542Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:43.566Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.599Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.613Z] [INFO] Processing message from Annem Songül Çekim (905446116092@c.us)
+[2025-01-15T10:33:43.613Z] [INFO] Processing message from Annem Songül Çekim (905446116092@c.us)
+[2025-01-15T10:33:43.628Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:43.628Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:43.628Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:43.629Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:43.629Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:43.638Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:43.652Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:43.673Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:43.741Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:43.764Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.781Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.824Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:43.824Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:43.824Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:43.824Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:43.826Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:43.826Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:43.836Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.857Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.880Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.919Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:43.919Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:43.919Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:43.954Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.969Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:43.980Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:43.988Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.000Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:44.008Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:44.019Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.023Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.023Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.024Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.024Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.036Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:44.036Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:44.036Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:44.050Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:44.056Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.070Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:44.094Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:44.095Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:44.118Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:44.118Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:44.118Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:44.118Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:44.122Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.131Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.131Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.153Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.179Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:44.204Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.213Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:44.235Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:44.235Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:44.241Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.262Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.285Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.293Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.293Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.293Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.323Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:44.342Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.358Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.376Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:44.380Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:44.388Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.394Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.394Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.394Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.419Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.434Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:44.439Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.477Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.477Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.507Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.541Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.554Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.558Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.572Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.572Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.572Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.572Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.614Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.648Z] [INFO] New message received from 905538864757@c.us
+[2025-01-15T10:33:44.676Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.714Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.721Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.748Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:44.753Z] [INFO] Processing message from Kazım (905538864757@c.us)
+[2025-01-15T10:33:44.753Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-15T10:33:44.769Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:44.788Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.798Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.798Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.798Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:44.823Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:44.862Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-15T10:33:44.862Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-15T10:33:44.878Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:44.934Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-15T10:33:44.940Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:44.965Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:44.991Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-15T10:33:45.020Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.023Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:45.054Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:45.068Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-15T10:33:45.069Z] [INFO] Processing message from Kazım (120363334331603373@g.us)
+[2025-01-15T10:33:45.070Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.136Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.157Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:45.180Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:45.202Z] [INFO] Processing message from Pelin Doğan (120363334331603373@g.us)
+[2025-01-15T10:33:45.202Z] [INFO] Processing message from Pelin Doğan (120363334331603373@g.us)
+[2025-01-15T10:33:45.238Z] [INFO] New message received from 120363375438007208@g.us
+[2025-01-15T10:33:45.268Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.293Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.312Z] [INFO] Processing message from Yunus Emre Yazicilar (120363375438007208@g.us)
+[2025-01-15T10:33:45.313Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.313Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.317Z] [INFO] New message received from 120363375438007208@g.us
+[2025-01-15T10:33:45.338Z] [INFO] New message received from 120363375438007208@g.us
+[2025-01-15T10:33:45.361Z] [INFO] New message received from 120363375438007208@g.us
+[2025-01-15T10:33:45.364Z] [INFO] Processing message from Yunus Emre Yazicilar (120363375438007208@g.us)
+[2025-01-15T10:33:45.364Z] [INFO] Processing message from Yunus Emre Yazicilar (120363375438007208@g.us)
+[2025-01-15T10:33:45.364Z] [INFO] Processing message from Yunus Emre Yazicilar (120363375438007208@g.us)
+[2025-01-15T10:33:45.400Z] [INFO] New message received from 120363375438007208@g.us
+[2025-01-15T10:33:45.419Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.448Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.464Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.464Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.470Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.481Z] [INFO] Processing message from Deniz Ates DUS (120363375438007208@g.us)
+[2025-01-15T10:33:45.481Z] [INFO] Processing voice message from Deniz Ates DUS
+[2025-01-15T10:33:45.482Z] [INFO] Processing audio message from Deniz Ates DUS
+[2025-01-15T10:33:45.515Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.518Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.559Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.568Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.569Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.581Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:33:45.600Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.601Z] [INFO] New message received from 905514485853@c.us
+[2025-01-15T10:33:45.603Z] [INFO] New message received from 905538864757@c.us
+[2025-01-15T10:33:45.636Z] [INFO] Processing message from Pelin Doğan (120363334331603373@g.us)
+[2025-01-15T10:33:45.645Z] [INFO] New message received from 905538864757@c.us
+[2025-01-15T10:33:45.648Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:45.663Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.664Z] [INFO] Processing message from Yunus Emre Yazicilar (905514485853@c.us)
+[2025-01-15T10:33:45.674Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:45.689Z] [INFO] Processing message from Kazım (905538864757@c.us)
+[2025-01-15T10:33:45.689Z] [INFO] Processing message from Kazım (905538864757@c.us)
+[2025-01-15T10:33:45.692Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.695Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:45.710Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:45.710Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:45.710Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:45.713Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.738Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:45.747Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.747Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.769Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:45.774Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.783Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:45.783Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:45.788Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:45.801Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.805Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.818Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:45.831Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.831Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.831Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:45.840Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:45.840Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:45.844Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:45.867Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:45.926Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:45.972Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:45.982Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:46.024Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:46.032Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:46.057Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:46.071Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:46.081Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:46.081Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:46.086Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:46.128Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:46.128Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:46.132Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T10:33:46.223Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T10:33:46.223Z] [INFO] Processing image message from Aşkım Melek Çekim
+[2025-01-15T10:33:46.223Z] [INFO] Processing image message from Aşkım Melek Çekim
+[2025-01-15T10:33:51.677Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:51.743Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:33:53.903Z] [INFO] Sending message to GPT - User: Deniz Ates DUS, Content: 
+[2025-01-15T10:33:55.350Z] [INFO] Received GPT response for Deniz Ates DUS
+[2025-01-15T10:33:59.276Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:33:59.376Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:34:00.039Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:34:00.092Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:34:31.798Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:34:31.907Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:34:31.952Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:34:32.015Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:34:32.015Z] [INFO] Processing GPT request from there: @gpt bu belgeyi türkçeye çevir
+[2025-01-15T10:34:32.015Z] [INFO] Sending message to GPT - User: there, Content: @gpt bu belgeyi türkçeye çevir
+[2025-01-15T10:34:33.959Z] [INFO] Received GPT response for there
+[2025-01-15T10:34:33.963Z] [INFO] Sending GPT response to there
+[2025-01-15T10:34:33.989Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:34:34.042Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:34:47.516Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:34:47.582Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:34:47.583Z] [INFO] Processing image message from there
+[2025-01-15T10:34:47.583Z] [INFO] Processing image message from there
+[2025-01-15T10:34:58.382Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:34:58.424Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:37:14.294Z] [INFO] New message received from 905065158739@c.us
+[2025-01-15T10:37:14.414Z] [INFO] Processing message from Bekir Hoca (905065158739@c.us)
+[2025-01-15T10:37:19.382Z] [INFO] New message received from 905065158739@c.us
+[2025-01-15T10:37:19.451Z] [INFO] Processing message from Bekir Hoca (905065158739@c.us)
+[2025-01-15T10:37:24.423Z] [INFO] New message received from 905065158739@c.us
+[2025-01-15T10:37:24.536Z] [INFO] Processing message from Bekir Hoca (905065158739@c.us)
+[2025-01-15T10:37:29.814Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:37:29.879Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:37:34.015Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:37:34.076Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:37:34.113Z] [INFO] New message received from 120363334331603373@g.us
+[2025-01-15T10:37:34.168Z] [INFO] Processing message from Pelin Doğan (120363334331603373@g.us)
+[2025-01-15T10:37:42.613Z] [INFO] New message received from 905065158739@c.us
+[2025-01-15T10:37:42.667Z] [INFO] Processing message from Bekir Hoca (905065158739@c.us)
+[2025-01-15T10:37:50.701Z] [INFO] New message received from 905065158739@c.us
+[2025-01-15T10:37:50.757Z] [INFO] Processing message from Bekir Hoca (905065158739@c.us)
+[2025-01-15T10:38:22.553Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:38:22.606Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:38:42.345Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:38:42.440Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:38:45.891Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:38:45.940Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:39:02.019Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:39:02.079Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:39:34.249Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:39:34.322Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T10:39:50.415Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T10:39:50.474Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:31.161Z] [INFO] Initializing database...
+[2025-01-15T11:01:31.164Z] [INFO] Database initialized successfully
+[2025-01-15T11:01:31.164Z] [INFO] Application starting...
+[2025-01-15T11:01:37.431Z] [INFO] WhatsApp client is ready and connected
+[2025-01-15T11:01:37.491Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:37.553Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:01:37.595Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:37.601Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:01:37.616Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:01:37.616Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:01:37.626Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:37.667Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:37.689Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:37.689Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:37.698Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:37.713Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:37.751Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:37.768Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:37.768Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:37.768Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:37.781Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:37.829Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:01:37.846Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:37.863Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:37.863Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:37.876Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:01:37.882Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:01:37.882Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:01:37.900Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:01:37.920Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:37.951Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:01:37.980Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:01:37.980Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:01:37.995Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:38.009Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:38.009Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:38.036Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:38.059Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:01:38.078Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:38.091Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:38.091Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:38.109Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:01:38.115Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:01:38.190Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:01:38.215Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:01:38.219Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:01:38.256Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:01:38.273Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:01:38.298Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:01:38.298Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:01:38.358Z] [INFO] Application terminated by user
+[2025-01-15T11:01:59.411Z] [INFO] Initializing database...
+[2025-01-15T11:01:59.414Z] [INFO] Database initialized successfully
+[2025-01-15T11:01:59.414Z] [INFO] Application starting...
+[2025-01-15T11:02:05.601Z] [INFO] WhatsApp client is ready and connected
+[2025-01-15T11:02:05.627Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:02:05.663Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:02:05.713Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:05.723Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:02:05.723Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:02:05.747Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:05.766Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:05.785Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:05.785Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:05.785Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:05.812Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:05.843Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:05.862Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:05.890Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:02:05.900Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:05.900Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:05.900Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:05.917Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:05.945Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:02:05.975Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:02:05.998Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:06.027Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:02:06.036Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:02:06.036Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:02:06.036Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:02:06.036Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:02:06.049Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:06.071Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:06.072Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:06.072Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:06.078Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:06.108Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:02:06.121Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:06.129Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:06.130Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:06.193Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:02:06.221Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:02:06.266Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:02:06.297Z] [INFO] New message received from 905538864757@c.us
+[2025-01-15T11:02:06.323Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:06.364Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:02:06.380Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:02:06.521Z] [INFO] Processing message from Kazım (905538864757@c.us)
+[2025-01-15T11:02:06.534Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:02:06.534Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:02:06.534Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:02:06.611Z] [INFO] New message received from 120363375438007208@g.us
+[2025-01-15T11:02:06.806Z] [INFO] Processing message from Yunus Emre Yazicilar (120363375438007208@g.us)
+[2025-01-15T11:02:06.806Z] [INFO] Processing voice message from Yunus Emre Yazicilar
+[2025-01-15T11:02:06.807Z] [INFO] Processing audio message from Yunus Emre Yazicilar
+[2025-01-15T11:02:08.130Z] [INFO] Sending message to GPT - User: Yunus Emre Yazicilar, Content: Biz sınavı RBİ isimli korumdan aldık. 180 Euro ödedik. Detaylar veya daha fazla soru var mı?
+[2025-01-15T11:02:10.315Z] [INFO] Received GPT response for Yunus Emre Yazicilar
+[2025-01-15T11:02:16.483Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:02:16.558Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:04:43.123Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:04:43.162Z] [INFO] New message received from 491627609755@c.us
+[2025-01-15T11:04:43.332Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:04:43.332Z] [INFO] Processing message from there (491627609755@c.us)
+[2025-01-15T11:05:28.251Z] [INFO] New message received from 905339388217@c.us
+[2025-01-15T11:05:28.344Z] [INFO] Processing message from Aşkım Melek Çekim (905339388217@c.us)
+[2025-01-15T11:06:40.002Z] [INFO] Application terminated by user
