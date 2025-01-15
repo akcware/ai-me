@@ -432,6 +432,15 @@ client.on("qr", (qr) => {
   qrcode.generate(qr, { small: true });
 });
 
+// Add new connection status handlers
+client.on("disconnected", (reason) => {
+  logToFile(`Client was disconnected. Reason: ${reason}`, 'error');
+});
+
+client.on("authenticated", () => {
+  logToFile("Client has been authenticated successfully");
+});
+
 initDB().then(() => {
   logToFile('Application starting...');
   client.initialize().catch(error => {
