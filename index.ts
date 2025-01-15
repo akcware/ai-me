@@ -110,6 +110,9 @@ const client = new Client({
   authStrategy: new LocalAuth({
     dataPath: "auth",
   }),
+  puppeteer: {
+    args: ['--no-sandbox'],
+  },
 });
 
 const openai = new OpenAI();
