@@ -6,6 +6,7 @@ import { open } from "sqlite";
 import fs from "fs";
 import path from "path";
 import { ElevenLabsClient } from "elevenlabs"; // Added ElevenLabsClient import
+import { startLogServer } from './logServer'; // Added import for log server
 
 const ADMIN_NUMBER = "491627609755@c.us";
 const SYSTEM_PROMPT_PATH = path.join(__dirname, "system-prompt.txt");
@@ -131,6 +132,10 @@ async function initDB() {
       )
     `);
     logToFile('Database initialized successfully');
+    
+    // Start the log server
+    startLogServer();
+    
   } catch (error) {
     logToFile(`Database initialization failed: ${error.message}`, 'error');
     throw error;
