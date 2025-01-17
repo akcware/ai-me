@@ -538,8 +538,18 @@ client.on("message_create", async (message) => {
     const gptResponse = await sendToGPT(message.body, message.from, userName);
     logToFile(`Sending GPT response to ${userName}`);
 
-    if (message.fromMe) message.reply(gptResponse);
-    else client.sendMessage(message.from, gptResponse);
+    try {
+      if (message.hasQuotedMsg) {
+        const quotedMsg = await message.getQuotedMessage();
+        await client.sendMessage(message.from, gptResponse, { quotedMessageId: quotedMsg.id._serialized });
+      } else {
+        await client.sendMessage(message.from, gptResponse);
+      }
+    } catch (error) {
+      console.error('Error sending reply:', error);
+      // Fallback to sending message without quote
+      await client.sendMessage(message.from, gptResponse);
+    }
     return;
   }
 
