@@ -423,6 +423,45 @@ function containsGreeting(message: string): boolean {
   return greetings.some(greeting => normalizedMsg.includes(greeting));
 }
 
+async function handleImageGeneration(message: WAWebJS.Message, prompt: string) {
+  try {
+    logToFile(`Generating image for prompt: ${prompt}`);
+    
+    const response = await openai.images.generate({
+      model: "dall-e-3",
+      prompt: prompt,
+      n: 1,
+      size: "1024x1024",
+    });
+
+    if (response.data[0].url) {
+      const imageUrl = response.data[0].url;
+      const imageResponse = await fetch(imageUrl);
+      const buffer = await imageResponse.arrayBuffer();
+      const base64Data = Buffer.from(buffer).toString('base64');
+      
+      const media = new MessageMedia(
+        'image/jpeg',
+        base64Data,
+        'generated-image.jpg'
+      );
+      
+      if (message.fromMe) {
+        await message.reply(media);
+      } else {
+        await client.sendMessage(message.from, media);
+      }
+      
+      logToFile('Image generated and sent successfully');
+    }
+  } catch (error) {
+    logToFile(`Error generating image: ${error.message}`, 'error');
+    const errorMessage = "Sorry, there was an error generating the image.";
+    if (message.fromMe) message.reply(errorMessage);
+    else client.sendMessage(message.from, errorMessage);
+  }
+}
+
 client.on("ready", () => {
   console.log("Client is ready!");
   logToFile("WhatsApp client is ready and connected");
@@ -485,6 +524,13 @@ client.on("message_create", async (message) => {
       await handleImageMessage(message, userName);
       return;
     }
+  }
+
+  if (message.body.startsWith("@draw")) {
+    logToFile(`Processing draw request from ${userName}`);
+    const prompt = message.body.substring(5).trim();
+    await handleImageGeneration(message, prompt);
+    return;
   }
 
   if (message.body.includes("@gpt") || (containsGreeting(message.body) && message.from == "905339388217@c.us")) {
