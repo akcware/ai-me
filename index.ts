@@ -6,7 +6,7 @@ import { open } from "sqlite";
 import fs from "fs";
 import path from "path";
 import { ElevenLabsClient } from "elevenlabs"; // Added ElevenLabsClient import
-import { startLogServer } from './logServer'; // Added import for log server
+import { startLogServer } from "./logServer"; // Added import for log server
 
 const ADMIN_NUMBER = "491627609755@c.us";
 const SYSTEM_PROMPT_PATH = path.join(__dirname, "system-prompt.txt");
@@ -15,22 +15,22 @@ const SYSTEM_PROMPT_PATH = path.join(__dirname, "system-prompt.txt");
 let isBotEnabled = true;
 
 // Add logging utility function at the top
-function logToFile(message: string, type: 'info' | 'error' = 'info') {
+function logToFile(message: string, type: "info" | "error" = "info") {
   const timestamp = new Date().toISOString();
   const logMessage = `[${timestamp}] [${type.toUpperCase()}] ${message}\n`;
-  fs.appendFileSync(path.join(__dirname, 'logs.txt'), logMessage);
+  fs.appendFileSync(path.join(__dirname, "logs.txt"), logMessage);
 }
 
 // Add process handlers for unexpected shutdowns
-process.on('uncaughtException', (error) => {
-  logToFile(`Uncaught Exception: ${error.message}`, 'error');
-  logToFile(`Stack: ${error.stack}`, 'error');
-  logToFile('Application terminated with error', 'error');
+process.on("uncaughtException", (error) => {
+  logToFile(`Uncaught Exception: ${error.message}`, "error");
+  logToFile(`Stack: ${error.stack}`, "error");
+  logToFile("Application terminated with error", "error");
   process.exit(1);
 });
 
-process.on('SIGINT', () => {
-  logToFile('Application terminated by user');
+process.on("SIGINT", () => {
+  logToFile("Application terminated by user");
   process.exit(0);
 });
 
@@ -41,25 +41,25 @@ function isAdmin(sender: string): boolean {
 
 // Function to handle bot availability commands
 async function handleAvailabilityCommand(message: WAWebJS.Message) {
-  const statusMessage = `Bot status: ${isBotEnabled ? 'enabled' : 'disabled'}`;
-  
-  if (message.body === '@status') {
+  const statusMessage = `Bot status: ${isBotEnabled ? "enabled" : "disabled"}`;
+
+  if (message.body === "@status") {
     if (message.fromMe) message.reply(statusMessage);
     else client.sendMessage(message.from, statusMessage);
     return true;
   }
-  
+
   if (!isAdmin(message.from)) return;
 
-  if (message.body === '@disable') {
+  if (message.body === "@disable") {
     isBotEnabled = false;
-    if (message.fromMe) message.reply('Bot is now disabled');
-    else client.sendMessage(message.from, 'Bot is now disabled');
+    if (message.fromMe) message.reply("Bot is now disabled");
+    else client.sendMessage(message.from, "Bot is now disabled");
     return true;
-  } else if (message.body === '@enable') {
+  } else if (message.body === "@enable") {
     isBotEnabled = true;
-    if (message.fromMe) message.reply('Bot is now enabled');
-    else client.sendMessage(message.from, 'Bot is now enabled');
+    if (message.fromMe) message.reply("Bot is now enabled");
+    else client.sendMessage(message.from, "Bot is now enabled");
     return true;
   }
   return false;
@@ -111,7 +111,7 @@ const client = new Client({
     dataPath: "auth",
   }),
   puppeteer: {
-    args: ['--no-sandbox'],
+    args: ["--no-sandbox"],
   },
 });
 
@@ -121,7 +121,7 @@ const elevenlabs = new ElevenLabsClient();
 let db: any;
 async function initDB() {
   try {
-    logToFile('Initializing database...');
+    logToFile("Initializing database...");
     db = await open({
       filename: "conversation.db",
       driver: sqlite3.Database,
@@ -134,13 +134,12 @@ async function initDB() {
         content TEXT
       )
     `);
-    logToFile('Database initialized successfully');
-    
+    logToFile("Database initialized successfully");
+
     // Start the log server
     startLogServer();
-    
   } catch (error) {
-    logToFile(`Database initialization failed: ${error.message}`, 'error');
+    logToFile(`Database initialization failed: ${error.message}`, "error");
     throw error;
   }
 }
@@ -151,22 +150,23 @@ async function sendToGPT(message: string, from: string, userName: string) {
     "SELECT role, content FROM conversation WHERE user = ? ORDER BY id",
     [from]
   );
-  
+
   // Parse stored messages properly
-  const parsedMessages = storedMessages.map(msg => ({
+  const parsedMessages = storedMessages.map((msg) => ({
     role: msg.role,
-    content: msg.role === 'assistant' ? msg.content : JSON.parse(msg.content)[0].text
+    content:
+      msg.role === "assistant" ? msg.content : JSON.parse(msg.content)[0].text,
   }));
 
   parsedMessages.push({
     role: "user",
-    content: `${userName}: ${message}`
+    content: `${userName}: ${message}`,
   });
 
   // Initialize messages with or without system prompt based on @pro flag
   const isPro = message.includes("@pro");
   const model = isPro ? "o1-preview" : "gpt-4o-mini";
-  
+
   let messages;
   if (isPro) {
     messages = [...parsedMessages];
@@ -185,7 +185,7 @@ async function sendToGPT(message: string, from: string, userName: string) {
     });
     logToFile(`Received GPT response for ${userName}`);
     const responseContent = completion.choices[0].message.content;
-    
+
     // Store messages in a consistent format
     await db.run(
       "INSERT INTO conversation(user, role, content) VALUES(?, ?, ?)",
@@ -197,7 +197,7 @@ async function sendToGPT(message: string, from: string, userName: string) {
     );
     return responseContent;
   } catch (error) {
-    logToFile(`Error communicating with GPT: ${error.message}`, 'error');
+    logToFile(`Error communicating with GPT: ${error.message}`, "error");
     throw error;
   }
 }
@@ -312,7 +312,7 @@ async function handleAudioMessage(message: WAWebJS.Message, userName: string) {
   } catch (error) {
     const errorMessage = `Error processing audio: ${error.message}`;
     console.error("[Audio] Error processing audio:", error);
-    logToFile(errorMessage, 'error');
+    logToFile(errorMessage, "error");
     console.error("[Audio] Error details:", {
       name: error.name,
       message: error.message,
@@ -384,7 +384,7 @@ async function handleImageMessage(message: WAWebJS.Message, userName: string) {
   } catch (error) {
     const errorMessage = `Error processing image: ${error.message}`;
     console.error("[Vision] Error processing image:", error);
-    logToFile(errorMessage, 'error');
+    logToFile(errorMessage, "error");
     console.error("[Vision] Error details:", {
       name: error.name,
       message: error.message,
@@ -406,27 +406,27 @@ function containsGreeting(message: string): boolean {
   // Normalize and convert to lowercase for better matching
   const normalizedMsg = message
     .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '');
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
 
   // Array of possible greetings with variations
   const greetings = [
-    'gunayd',    // Covers: gunaydin, gunaydın
-    'günayd',    // Covers: günaydın
-    'iyi gece',  // Covers: iyi geceler
-    'ıyi gece',  // Covers: ıyi geceler
-    'iyi gündüz',
-    'iyi günler',
-    'ıyi günler'
+    "gunayd", // Covers: gunaydin, gunaydın
+    "günayd", // Covers: günaydın
+    "iyi gece", // Covers: iyi geceler
+    "ıyi gece", // Covers: ıyi geceler
+    "iyi gündüz",
+    "iyi günler",
+    "ıyi günler",
   ];
 
-  return greetings.some(greeting => normalizedMsg.includes(greeting));
+  return greetings.some((greeting) => normalizedMsg.includes(greeting));
 }
 
 async function handleImageGeneration(message: WAWebJS.Message, prompt: string) {
   try {
     logToFile(`Generating image for prompt: ${prompt}`);
-    
+
     const response = await openai.images.generate({
       model: "dall-e-3",
       prompt: prompt,
@@ -438,24 +438,24 @@ async function handleImageGeneration(message: WAWebJS.Message, prompt: string) {
       const imageUrl = response.data[0].url;
       const imageResponse = await fetch(imageUrl);
       const buffer = await imageResponse.arrayBuffer();
-      const base64Data = Buffer.from(buffer).toString('base64');
-      
+      const base64Data = Buffer.from(buffer).toString("base64");
+
       const media = new MessageMedia(
-        'image/jpeg',
+        "image/jpeg",
         base64Data,
-        'generated-image.jpg'
+        "generated-image.jpg"
       );
-      
+
       if (message.fromMe) {
         await message.reply(media);
       } else {
         await client.sendMessage(message.from, media);
       }
-      
-      logToFile('Image generated and sent successfully');
+
+      logToFile("Image generated and sent successfully");
     }
   } catch (error) {
-    logToFile(`Error generating image: ${error.message}`, 'error');
+    logToFile(`Error generating image: ${error.message}`, "error");
     const errorMessage = "Sorry, there was an error generating the image.";
     if (message.fromMe) message.reply(errorMessage);
     else client.sendMessage(message.from, errorMessage);
@@ -473,7 +473,7 @@ client.on("qr", (qr) => {
 
 // Add new connection status handlers
 client.on("disconnected", (reason) => {
-  logToFile(`Client was disconnected. Reason: ${reason}`, 'error');
+  logToFile(`Client was disconnected. Reason: ${reason}`, "error");
 });
 
 client.on("authenticated", () => {
@@ -481,9 +481,9 @@ client.on("authenticated", () => {
 });
 
 initDB().then(() => {
-  logToFile('Application starting...');
-  client.initialize().catch(error => {
-    logToFile(`Failed to initialize client: ${error.message}`, 'error');
+  logToFile("Application starting...");
+  client.initialize().catch((error) => {
+    logToFile(`Failed to initialize client: ${error.message}`, "error");
   });
 });
 
@@ -492,7 +492,47 @@ let debounceTimer: NodeJS.Timeout | null = null;
 
 client.on("message_create", async (message) => {
   logToFile(`New message received from ${message.from}`);
-  
+
+  if (message.hasQuotedMsg && message.body.includes("@transcribe")) {
+    try {
+      const quotedMessage = await message.getQuotedMessage();
+      if (quotedMessage.type === "ptt" || quotedMessage.type === "audio") {
+        logToFile(`Starting transcription for quoted audio message`);
+        const media = await quotedMessage.downloadMedia();
+        
+        if (!media || !media.data) {
+          throw new Error("Failed to download audio media");
+        }
+
+        // Save base64 audio to temp file
+        const tempDir = path.join(__dirname, "temp");
+        if (!fs.existsSync(tempDir)) {
+          fs.mkdirSync(tempDir);
+        }
+        const audioPath = path.join(tempDir, `audio_${Date.now()}.ogg`);
+        fs.writeFileSync(audioPath, Buffer.from(media.data, "base64"));
+
+        // Transcribe audio
+        const transcription = await openai.audio.transcriptions.create({
+          file: fs.createReadStream(audioPath),
+          model: "whisper-1",
+        });
+
+        // Clean up temp file
+        fs.unlinkSync(audioPath);
+
+        // Send transcription
+        await message.reply(`Transcription:\n${transcription.text}`);
+        logToFile(`Successfully transcribed audio message`);
+        return;
+      }
+    } catch (error) {
+      logToFile(`Error transcribing audio: ${error.message}`, "error");
+      await message.reply("Sorry, there was an error transcribing the audio message.");
+      return;
+    }
+  }
+
   // Check availability command first
   if (await handleAvailabilityCommand(message)) {
     logToFile(`Handled availability command from ${message.from}`);
@@ -501,7 +541,7 @@ client.on("message_create", async (message) => {
 
   // Check if bot is disabled and message is not from admin
   if (!isBotEnabled && !isAdmin(message.from)) {
-    if (message.body.includes('@gpt')) {
+    if (message.body.includes("@gpt")) {
       logToFile(`Rejected message from ${message.from} - bot is disabled`);
       client.sendMessage(message.from, "Sorry, the bot is currently disabled.");
     }
@@ -533,7 +573,10 @@ client.on("message_create", async (message) => {
     return;
   }
 
-  if (message.body.includes("@gpt") || (containsGreeting(message.body) && message.from == "905339388217@c.us")) {
+  if (
+    message.body.includes("@gpt") ||
+    (containsGreeting(message.body) && message.from == "905339388217@c.us")
+  ) {
     logToFile(`Processing GPT request from ${userName}: ${message.body}`);
     const gptResponse = await sendToGPT(message.body, message.from, userName);
     logToFile(`Sending GPT response to ${userName}`);
@@ -541,12 +584,14 @@ client.on("message_create", async (message) => {
     try {
       if (message.hasQuotedMsg) {
         const quotedMsg = await message.getQuotedMessage();
-        await client.sendMessage(message.from, gptResponse, { quotedMessageId: quotedMsg.id._serialized });
+        await client.sendMessage(message.from, gptResponse, {
+          quotedMessageId: quotedMsg.id._serialized,
+        });
       } else {
         await client.sendMessage(message.from, gptResponse);
       }
     } catch (error) {
-      console.error('Error sending reply:', error);
+      console.error("Error sending reply:", error);
       // Fallback to sending message without quote
       await client.sendMessage(message.from, gptResponse);
     }
