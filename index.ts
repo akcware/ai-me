@@ -7,6 +7,7 @@ import fs from "fs";
 import path from "path";
 import { ElevenLabsClient } from "elevenlabs";
 import Wlog, { LogFormat } from "@akcware/wlog";
+import cron from "node-cron";
 
 // Initialize logger
 const logger = new Wlog({
@@ -496,9 +497,25 @@ async function handleImageGeneration(message: WAWebJS.Message, prompt: string) {
   }
 }
 
+// Add new daily reminder function
+async function sendDailyReminder() {
+  try {
+    await client.sendMessage("905339388217@c.us", "Ilaclarini al balim");
+    logger.info("Daily reminder sent.");
+  } catch (error) {
+    logger.error("Failed to send daily reminder: " + error.message);
+  }
+}
+
 client.on("ready", () => {
   console.log("Client is ready!");
   logger.info("WhatsApp client is ready and connected");
+
+  // Schedule the reminder to run at 19:00 every day in Turkey time zone
+  cron.schedule("0 19 * * *", () => {
+    logger.info("Executing daily reminder job");
+    sendDailyReminder();
+  }, { timezone: "Europe/Istanbul" });
 });
 
 client.on("qr", (qr) => {
@@ -598,7 +615,7 @@ client.on("message_create", async (message) => {
       if (message.fromMe) return;
       if (!isVoiceEnabled) {
         logger.info(`Rejected voice message from ${userName} - voice processing is disabled`);
-        client.sendMessage(message.from, "Sorry, voice processing is currently disabled.");
+        // client.sendMessage(message.from, "Sorry, voice processing is currently disabled.");
         return;
       }
       logger.info(`Processing voice message from ${userName}`);
