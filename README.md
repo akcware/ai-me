@@ -1,5 +1,7 @@
 A WhatsApp bot that provides AI-powered interactions using OpenAI's GPT models, voice processing, and image analysis capabilities.
 
+> 🏆 **Award-winning project**: 3rd Place at [Nosu AI Hackathon](https://devpost.com/software/twinify-your-ai-powered-digital-twin-for-whatsapp) in "Exploratory use of LLMs and Vision models" category ($500 Nebius)
+
 ## Features
 
 - **Chat with GPT**: Talk to OpenAI's models through WhatsApp
@@ -62,3 +64,7 @@ http://localhost:3000/logs
 ## Development
 
 This project uses Bun as the JavaScript/TypeScript runtime. The database automatically stores conversation history for context-aware responses.
+
+## Awards
+
+- **3rd Place** - [Nosu AI Hackathon](https://devpost.com/software/twinify-your-ai-powered-digital-twin-for-whatsapp) in the category of "Winner Exploratory use of LLMs and Vision models" ($500 Nebius)
