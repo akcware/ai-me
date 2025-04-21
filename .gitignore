@@ -178,3 +178,7 @@ dist
 .wwebjs_cache
 auth
 temp
+
+conversation.db
+logs.txt
+wlog.db
