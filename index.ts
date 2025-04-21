@@ -200,7 +200,7 @@ async function sendToGPT(message: string, from: string, userName: string) {
 
   // Initialize messages with or without system prompt based on @pro flag
   const isPro = message.includes("@pro");
-  const model = isPro ? "o1-preview" : "gpt-4o-mini";
+  const model = isPro ? "o4-mini" : "gpt-4.1";
 
   let messages;
   if (isPro) {
@@ -374,7 +374,7 @@ async function handleImageMessage(message: WAWebJS.Message, userName: string) {
 
     // Get user's question from message body, remove @gpt and @pro tags
     const userQuestion =
-      message.body.replace("@gpt", "").replace("@pro", "").trim() ||
+      message.body.replace("@sor", "").replace("@pro", "").trim() ||
       "What's in this image? Please describe it concisely.";
 
     // Initialize messages with system prompt and user name
@@ -401,7 +401,7 @@ async function handleImageMessage(message: WAWebJS.Message, userName: string) {
     const messages = [systemPrompt, userNameMessage, userMessage];
 
     // Choose model based on message content
-    const model = message.body.includes("@pro") ? "o1" : "gpt-4o";
+    const model = message.body.includes("@pro") ? "o4-mini" : "gpt-4.1";
 
     // Call Vision API
     const response = await openai.chat.completions.create({
@@ -511,9 +511,15 @@ client.on("ready", () => {
   console.log("Client is ready!");
   logger.info("WhatsApp client is ready and connected");
 
-  // Schedule the reminder to run at 19:00 every day in Turkey time zone
-  cron.schedule("0 19 * * *", () => {
-    logger.info("Executing daily reminder job");
+  // Schedule morning reminder at 10:00 AM
+  cron.schedule("0 10 * * *", () => {
+    logger.info("Executing morning reminder job");
+    sendDailyReminder();
+  }, { timezone: "Europe/Istanbul" });
+
+  // Schedule evening reminder at 19:30 (7:30 PM)
+  cron.schedule("30 19 * * *", () => {
+    logger.info("Executing evening reminder job");
     sendDailyReminder();
   }, { timezone: "Europe/Istanbul" });
 });
@@ -598,7 +604,7 @@ client.on("message_create", async (message) => {
 
   // Check if bot is disabled and message is not from admin
   if (!isBotEnabled && !isAdmin(message.from)) {
-    if (message.body.includes("@gpt")) {
+    if (message.body.includes("@sor")) {
       logger.info(`Rejected message from ${message.from} - bot is disabled`);
       client.sendMessage(message.from, "Sorry, the bot is currently disabled.");
     }
@@ -621,7 +627,7 @@ client.on("message_create", async (message) => {
       logger.info(`Processing voice message from ${userName}`);
       await handleAudioMessage(message, userName);
       return;
-    } else if (message.type === "image" && message.body.includes("@gpt")) {
+    } else if (message.type === "image" && message.body.includes("@sor")) {
       logger.info(`Processing image message from ${userName}`);
       await handleImageMessage(message, userName);
       return;
@@ -636,7 +642,7 @@ client.on("message_create", async (message) => {
   }
 
   if (
-    message.body.includes("@gpt") ||
+    message.body.includes("@sor") ||
     (containsGreeting(message.body) && message.from == "905339388217@c.us")
   ) {
     logger.info(`Processing GPT request from ${userName}: ${message.body}`);
